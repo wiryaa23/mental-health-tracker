@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-#@@oo1y*s2spk_9vf==gk^$oif-^!s=q*s&emt_sqtcp1@1z%0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["localhost", "127.0.0.1", "http://wirya-dharma-mentalhealthtracker.pbp.cs.ui.ac.id/"]
+ALLOWED_HOSTS = ["localhost", "127.0.0.1", "wirya-dharma-mentalhealthtracker.pbp.cs.ui.ac.id", "http://wirya-dharma-mentalhealthtracker.pbp.cs.ui.ac.id", "https://wirya-dharma-mentalhealthtracker.pbp.cs.ui.ac.id"]
 # ALLOWED_HOSTS = ["localhost", "127.0.0.1", "http://pbp.cs.ui.ac.id/wirya.dharma/mentalhealthtracker"]
 
 
@@ -124,4 +124,5 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CSRF_TRUSTED_ORIGINS = ["http://localhost","http://127.0.0.1","http://http://wirya-dharma-mentalhealthtracker.pbp.cs.ui.ac.id/", "https://http://wirya-dharma-mentalhealthtracker.pbp.cs.ui.ac.id/"]
+CSRF_TRUSTED_ORIGINS = ["http://localhost","http://127.0.0.1",
+                        "http://wirya-dharma-mentalhealthtracker.pbp.cs.ui.ac.id", "https://wirya-dharma-mentalhealthtracker.pbp.cs.ui.ac.id"]
